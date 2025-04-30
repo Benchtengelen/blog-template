@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F1F1F1;
+}
+
+.header {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    
+    
+}
+.header h1{
+font-weight: bold;
+letter-spacing: 2px;
+font-size: 40px;
+}
+.header p {
+    margin-top: 20px;
+    
+}
+.header a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.side-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card-container{
+      width: 90%;
+      margin: 100px auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+     
+  }
+  .card-container img{
+    width: 100%;
+  } 
+  .card-container .title{
+    font-family: "Raleway", sans-serif;
+    padding: 30px;
+    letter-spacing: 1px;
+    margin-top: -20px;
+  }
+  .card-container .title h1{
+    font-size: 20px;
+    
+  }
+   .card-container .title .p2, p{
+    margin-top: 15px;
+   }
+   .card-container .title a{
+    color: gray;
+   }
+   .card-container .title button{
+    padding: 12px 18px;
+    background-color: white;
+    border: 1px solid gray;
+    font-weight: bold;
+    margin-top: 40px;
+   }
+   .card-container .title button:hover{
+    background-color: gray;
+   }
+   .card-container .title .comments{
+    text-align: right;
+    margin-top: -40px;
+    font-weight: bold;
+
+   }
+   .card-container .title .comments a{
+    background-color: black;
+    color: white;
+    padding: 5px;
+   }
+
+   .side-column .card4 {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: "Raleway", sans-serif;
+
+   }
+   .side-column .popular-title{
+    background-color: #f0f0f0;
+    margin: -20px -20px 10px -20px; 
+    padding: 10px;
+    display: block;
+    width: 450px; 
+    box-sizing: border-box; 
+   
+    }
+    .side-column .popular-title:hover{
+        background-color: gray;
+    }
+   .side-column .card4 .cards{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    
+    
+   }
+   .side-column .card4 .cards:hover{
+      background-color: gray;
+   }
+   .side-column .card4 .cards img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    flex-shrink: 0;
+    
+   
+   }
+   .side-column .card4 .cards .articles p{
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+   }
+    
+   .side-column .card5 {
+    font-family: "Raleway", sans-serif;
+   }
+
+   .side-column .card5 .tags-title{
+    background-color: #f0f0f0;
+    margin-top: -2px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box; 
+    font-size: 20px;
+   }
+   .side-column .card5 p{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #eee;
+    color: #000;
+    font-size: 12px;
+    padding: 6px;
+    }
+    .side-column .card5 p a{
+        background-color: black;
+        color: white;
+        padding: 6px;
+        font-size: 12px;
+    }
+   .side-column .card5 .cities{
+    margin-left: 15px;
+   }
+ 
+  
+  .card1{
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+      height: 552px;
+  }
+  .card2{
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+      height: 431px;
+  }
+  .card3{
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+      height: 552px;
+  }
+  .card4{
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+      height: 393px;
+      margin-top: -100px;
+
+  }
+  .card5{
+      background-color: #FFFFFF;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+      height: 209px;
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+        .card-container{
+          grid-template-columns: 1fr;
+        }    
+  
+        .card4 {
+          margin-top: 0;
+        }
+  
+  
+  }
+
